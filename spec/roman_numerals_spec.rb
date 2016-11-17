@@ -7,10 +7,17 @@ describe RomanNumerals do
   expect(RomanNumerals.convert(1)).to eq "I"
   end
 
+# 'V' meaning '5'
+
+  it 'should convert 5 into "V"' do
+  expect(RomanNumerals.convert(5)).to eq "V"
+  end
+
+
 end
 
 
-# 'V' meaning '5'
+
 # 'X' meaning '10'
 # 'L' meaning '50'
 # 'C' meaning '100'
