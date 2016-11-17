@@ -14,12 +14,17 @@ subject(:RomanNumerals) { described_class.new }
   expect(RomanNumerals.convert(5)).to eq "V"
   end
 
+# 'X' meaning '10'
+
+  it 'should covert 10 into "X"' do
+  expect(RomanNumerals.convert(10)).to eq "X"
+  end
 
 end
 
 
 
-# 'X' meaning '10'
+
 # 'L' meaning '50'
 # 'C' meaning '100'
 # 'D' meaning '500'
