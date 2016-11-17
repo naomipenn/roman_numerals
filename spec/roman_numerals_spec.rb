@@ -1,6 +1,7 @@
 require 'roman_numerals'
 
 describe RomanNumerals do
+subject(:RomanNumerals) { described_class.new }
 
 # 'I' meaning '1'
   it 'should convert 1 into "I"' do
